@@ -11,6 +11,7 @@ def add():
     a = int(request.args.get("a"))
     b = int(request.args.get("b"))
 
+    #return sum
     return jsonify({
         "result": a+b
     })
