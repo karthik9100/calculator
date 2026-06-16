@@ -4,8 +4,8 @@ app = Flask(__name__)
 
 @app.route("/")
 def home():
-    return "Calculator Running"
-
+    return "Calculator Running version 2"
+    
 @app.route("/add")
 def add():
     a = int(request.args.get("a"))
